@@ -131,6 +131,8 @@ OR `- Item 1`
 ```git
 ![Alt Text](https://via.placeholder.com/150 "Image Title")
 ```
+![Alt Text](https://via.placeholder.com/150 "Image Title")
+
 ---
 
 ### Code Blocks
@@ -138,12 +140,17 @@ OR `- Item 1`
 ```git
 Use backticks (`) for inline code, like `code`.
 ```
+Use backticks (`) for inline code, like `code`.
+
 ### Multiline Code Blocks
 ```git
 ```python
 def hello_world():
     print("Hello, World!")
 ```
+python
+def hello_world():
+    print("Hello, World!")
 
 ---
 
@@ -152,6 +159,8 @@ def hello_world():
 > This is a blockquote.
 >> Nested Blockquote.
 ```
+> This is a blockquote.
+>> Nested Blockquote.
 
 ---
 
@@ -168,6 +177,10 @@ def hello_world():
 | Row 1    | Data     | Data     |
 | Row 2    | Data     | Data     |
 ```
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+| Row 1    | Data     | Data     |
+| Row 2    | Data     | Data     |
 
 ---
 
@@ -177,6 +190,9 @@ def hello_world():
 - [ ] Task 2
 - [ ] Task 3
 ```
+- [x] Task 1
+- [ ] Task 2
+- [ ] Task 3
 
 ---
 
@@ -184,6 +200,7 @@ def hello_world():
 ```git
 \*This will not be italicized\*
 ```
+\*This will not be italicized\*
 
 ---
 
@@ -192,3 +209,5 @@ def hello_world():
 ### **Bold Heading**
 > A blockquote with `inline code` and a [link](https://example.com).
 ```
+**Bold Heading**
+> A blockquote with `inline code` and a [link](https://example.com).```
